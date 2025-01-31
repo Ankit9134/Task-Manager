@@ -87,7 +87,7 @@ class SignUpForm extends StatelessWidget {
             controller: mobileNumberTEController,
             hintText: AppStrings.mobileNumberTextFieldHint,
             regEx: AppStrings.phoneNumberRegEx,
-            maxLength: 14,
+            maxLength: 12,
             onFieldSubmitted: (value) {
               FocusScope.of(context).requestFocus(passwordFocusNode);
             },
